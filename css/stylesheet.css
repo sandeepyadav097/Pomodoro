@@ -1,0 +1,42 @@
+#body{
+    
+    
+    background: url("http://139.129.118.44:8080/images/newsContent/20160711/1468167179464078901.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:bisque;
+    color:black;
+    opacity:2;
+    
+}
+
+
+#display {
+        overflow: hidden;
+        position: relative;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        color: white;
+        z-index: 1;
+        background-color:black;
+       border: 5px solid black;
+         text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF9900, 0 0 70px #FF9900, 0 0 80px #FF9900, 0 0 100px #FF9900, 0 0 150px #FF9900;
+    }
+
+    #child {
+        position: absolute;
+        background:linear-gradient(to bottom, #283c86, #45a247);
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        height: 300px;
+        z-index: -1;
+
+    }
+
+#session_plus, #session_minus, #break_plus, #break_minus, #session, #break{
+    font-size:25px;
+    
+}
+
